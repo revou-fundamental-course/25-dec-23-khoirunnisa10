@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hitung Luas & Keliling Segitiga</title>
+</head>
+
+<body>
+    <table border="5" cellpadding="10">
+        <tr style="text-align:center">
+            <td colspan="2"><img src="img/segi3.png" alt="segitiga" width="200" class=""></td>
+        </tr>
+        <tr>
+            <th>LUAS SEGITIGA</th>
+            <th>KELILING SEGITIGA</th>
+        </tr>
+        <tr>
+            <td><img src="img/Lsegi3.png" alt="rumus luas segitiga" width="100">
+                <p>Dimana :
+                    <br> L = Luas
+                    <br> a = Panjang alas
+                    <br> t = Tinggi
+                </p>
+            </td>
+            <td><img src="img/Ksegi3.png" alt="rumus keliling segitiga" width="115">
+                <p>Dimana :
+                    <br> K : Keliling
+                    <br>S1 = sisi A
+                    <br>S2 = sisi B
+                    <br>S3 = sisi C
+                </p>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                Hitung luas
+                <input type="int" id="alas" placeholder="nilai alas">
+                <input type="int" id="tinggi" placeholder="nilai tinggi">
+                <br><button id="hitungL">Hitung</button>
+                <div id="hasilL"></div>
+
+
+            </td>
+            <td>
+                Hitung Keliling
+                <input type="int" id="s1" placeholder="sisi A">
+                <input type="int" id="s2" placeholder="sisi B">
+                <input type="int" id="s3" placeholder="sisi C">
+                <br><button id="hitungK">Hitung</button>
+                <div id="hasilK"></div>
+            </td>
+        </tr>
+    </table>
+</body>
+<script src="js/script.js"></script>
+
+</html>
